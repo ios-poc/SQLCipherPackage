@@ -7,7 +7,8 @@ let package = Package(
         .iOS(.v13)
     ],
     products: [
-        .library(name: "SQLCipherPackage", targets: ["SQLCipherPackage"])
+        .library(name: "SQLCipherPackage", targets: ["SQLCipherPackage"]),
+        .library(name: "CSQLCipher", targets: ["CSQLCipher"])
     ],
     targets: [
         // Binary OpenSSL dependency from GitHub release
